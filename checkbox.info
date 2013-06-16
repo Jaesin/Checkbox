@@ -1,0 +1,6 @@
+name = Checkbox Tools
+description = Adds checkboxes to the permissions page to toggle all permissions for a role.
+package = "Other"
+core = 7.x
+
+files[] = checkbox.module

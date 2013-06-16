@@ -1,0 +1,6 @@
+<?php
+
+function checkbox_form_user_admin_permissions_alter(&$form, &$form_state) {
+  $module_path = drupal_get_path('module', 'checkbox');
+  drupal_add_js($module_path .'/js/checkbox-perms.js');
+}
